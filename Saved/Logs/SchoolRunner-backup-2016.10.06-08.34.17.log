@@ -1,0 +1,195 @@
+﻿Log file open, 10/05/16 09:04:49
+LogInit:Display: Running engine for game: SchoolRunner
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(982060851) SRandInit(982060852).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.060892
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.10.05-13.04.49:798][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.05-13.04.49:798][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.10.05-13.04.49:805][  0]LogInit: Computer: 2016-KISER-04
+[2016.10.05-13.04.49:805][  0]LogInit: User: iarodri17
+[2016.10.05-13.04.49:805][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.10.05-13.04.49:805][  0]LogInit: High frequency timer resolution =3.328339 MHz
+[2016.10.05-13.04.49:806][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.10.05-13.04.49:806][  0]LogMemory: Platform Memory Stats for Windows
+[2016.10.05-13.04.49:806][  0]LogMemory: Process Physical Memory: 191.75 MB used, 191.75 MB peak
+[2016.10.05-13.04.49:806][  0]LogMemory: Process Virtual Memory: 197.03 MB used, 197.03 MB peak
+[2016.10.05-13.04.49:806][  0]LogMemory: Physical Memory: 5179.45 MB used, 16304.60 MB total
+[2016.10.05-13.04.49:806][  0]LogMemory: Virtual Memory: 522.00 MB used, 8388608.00 MB total
+[2016.10.05-13.04.49:833][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.10.05-13.04.50:130][  0]LogD3D11RHI: D3D11 adapters:
+[2016.10.05-13.04.50:145][  0]LogD3D11RHI:    0. 'NVIDIA Quadro K2200 ' (Feature Level 11_0)
+[2016.10.05-13.04.50:145][  0]LogD3D11RHI:       4034/0/7896 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2016.10.05-13.04.50:145][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.10.05-13.04.50:149][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.10.05-13.04.50:149][  0]LogD3D11RHI:     GPU DeviceId: 0x13ba (for the marketing name, search the web for "GPU Device Id")
+[2016.10.05-13.04.50:149][  0]LogWindows: EnumDisplayDevices:
+[2016.10.05-13.04.50:149][  0]LogWindows:    0. 'NVIDIA Quadro K2200 ' (P:1 D:1)
+[2016.10.05-13.04.50:149][  0]LogWindows:    1. 'NVIDIA Quadro K2200 ' (P:0 D:1)
+[2016.10.05-13.04.50:149][  0]LogWindows:    2. 'NVIDIA Quadro K2200 ' (P:0 D:0)
+[2016.10.05-13.04.50:149][  0]LogWindows:    3. 'NVIDIA Quadro K2200 ' (P:0 D:0)
+[2016.10.05-13.04.50:150][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2016.10.05-13.04.50:150][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2016.10.05-13.04.50:150][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2016.10.05-13.04.50:150][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2016.10.05-13.04.50:150][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro K2200 
+[2016.10.05-13.04.50:150][  0]LogD3D11RHI:   Driver Version: 361.91 (internal:10.18.13.6191, unified:361.91)
+[2016.10.05-13.04.50:150][  0]LogD3D11RHI:      Driver Date: 2-8-2016
+[2016.10.05-13.04.50:150][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.10.05-13.04.50:155][  0]LogD3D11RHI: Async texture creation enabled
+[2016.10.05-13.04.50:169][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2016.10.05-13.04.50:169][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../../../Ivan/SchoolRunner-4.12-SchoolRunnerAaronUpdate/Intermediate/Shaders/WorkingDirectory/6208/).
+[2016.10.05-13.04.50:169][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/IARODR~1/AppData/Local/Temp/UnrealShaderWorkingDir/E3C400734DFC28A6495F05ABDCCE65E6/'.
+[2016.10.05-13.04.50:169][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.10.05-13.04.51:052][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.10.05-13.04.51:059][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.10.05-13.04.51:067][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.10.05-13.04.51:074][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.10.05-13.04.51:081][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.10.05-13.04.51:088][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.10.05-13.04.51:094][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.10.05-13.04.51:100][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.10.05-13.04.51:107][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.10.05-13.04.51:113][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.10.05-13.04.51:119][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.10.05-13.04.51:132][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.10.05-13.04.51:132][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.10.05-13.04.51:133][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.10.05-13.04.51:151][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.10.05-13.04.51:157][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.10.05-13.04.51:164][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.10.05-13.04.51:170][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.10.05-13.04.51:176][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.10.05-13.04.51:176][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.10.05-13.04.51:218][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.10.05-13.04.51:253][  0]LogDerivedDataCache: Loaded boot cache 0.03s 48MB C:/Users/iarodri17/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.10.05-13.04.51:253][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/iarodri17/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.10.05-13.04.51:253][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Ivan/SchoolRunner-4.12-SchoolRunnerAaronUpdate/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.10.05-13.04.51:253][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.10.05-13.04.51:253][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Ivan/SchoolRunner-4.12-SchoolRunnerAaronUpdate/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.10.05-13.04.51:253][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.10.05-13.04.51:267][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.10.05-13.04.51:278][  0]LogDerivedDataCache: Using Local data cache path C:/Users/iarodri17/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.10.05-13.04.51:399][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.05-13.04.51:400][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.10.05-13.04.51:513][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.10.05-13.04.51:513][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.10.05-13.04.51:513][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.10.05-13.04.51:708][  0]LogAssetRegistry: FAssetRegistry took 0.0199 seconds to start up
+[2016.10.05-13.04.51:724][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.014139 seconds
+[2016.10.05-13.04.51:728][  0]LogUObjectArray: 28741 objects as part of root set at end of initial load.
+[2016.10.05-13.04.51:728][  0]LogUObjectAllocator: 5855920 out of 0 bytes used by permanent object pool.
+[2016.10.05-13.04.51:728][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.10.05-13.04.51:732][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.10.05-13.04.51:852][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.10.05-13.04.51:852][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.10.05-13.04.52:288][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.10.05-13.04.52:473][  0]SourceControl: Info Source control is disabled
+[2016.10.05-13.04.52:474][  0]SourceControl: Info Source control is disabled
+[2016.10.05-13.04.52:477][  0]SourceControl: Info Source control is disabled
+[2016.10.05-13.04.52:481][  0]SourceControl: Info Source control is disabled
+[2016.10.05-13.04.52:592][  0]LogEngine: Initializing Engine...
+[2016.10.05-13.04.52:592][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.10.05-13.04.52:593][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.10.05-13.04.52:695][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.10.05-13.04.52:698][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.10.05-13.04.52:714][  0]LogInit: FAudioDevice initialized.
+[2016.10.05-13.04.52:734][  0]LogDerivedDataCache: Saved boot cache 0.02s 48MB C:/Users/iarodri17/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.10.05-13.04.52:736][  0]LogInit: Texture streaming: Enabled
+[2016.10.05-13.04.52:750][  0]LogInit: Transaction tracking system initialized
+[2016.10.05-13.04.52:763][  0]BlueprintLog: New page: Editor Load
+[2016.10.05-13.04.52:805][  0]LocalizationService: Info Localization service is disabled
+[2016.10.05-13.04.52:843][  0]LogConsoleResponse:Display: 
+[2016.10.05-13.04.52:921][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.10.05-13.04.52:921][  0]LogCook:Display: Mobile HDR setting 1
+[2016.10.05-13.04.52:976][  0]LogFileCache: Scanning file cache for directory 'C:/Ivan/SchoolRunner-4.12-SchoolRunnerAaronUpdate/Content/' took 0.02s
+[2016.10.05-13.04.52:976][  0]SourceControl: Info Source control is disabled
+[2016.10.05-13.04.52:976][  0]Cmd: MAP LOAD FILE="../../../../../../Ivan/SchoolRunner-4.12-SchoolRunnerAaronUpdate/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.10.05-13.04.52:976][  0]LightingResults: New page: Lighting Build
+[2016.10.05-13.04.52:978][  0]MapCheck: New page: Map Check
+[2016.10.05-13.04.52:978][  0]LightingResults: New page: Lighting Build
+[2016.10.05-13.04.53:002][  0]LogLinker:Warning: Asset '../../../../../../Ivan/SchoolRunner-4.12-SchoolRunnerAaronUpdate/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.10.05-13.04.53:003][  0]LogLinker:Warning: Asset '../../../../../../Ivan/SchoolRunner-4.12-SchoolRunnerAaronUpdate/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.10.05-13.04.53:004][  0]LogLinker:Warning: Asset '../../../../../../Ivan/SchoolRunner-4.12-SchoolRunnerAaronUpdate/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.10.05-13.04.53:004][  0]LogLinker:Warning: Asset '../../../../../../Ivan/SchoolRunner-4.12-SchoolRunnerAaronUpdate/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.10.05-13.04.53:004][  0]LogLinker:Warning: Asset '../../../../../../Ivan/SchoolRunner-4.12-SchoolRunnerAaronUpdate/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.10.05-13.04.53:005][  0]LogLinker:Warning: Asset '../../../../../../Ivan/SchoolRunner-4.12-SchoolRunnerAaronUpdate/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.10.05-13.04.53:005][  0]LogLinker:Warning: Asset '../../../../../../Ivan/SchoolRunner-4.12-SchoolRunnerAaronUpdate/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.10.05-13.04.53:248][  0]LogLinker:Warning: Can't find file '/Engine/EngineDebugMaterials/MAT_Green'
+[2016.10.05-13.04.53:248][  0]LogLinker:Warning: Can't find file for asset '/Engine/EngineDebugMaterials/MAT_Green' while loading ../../../../../../Ivan/SchoolRunner-4.12-SchoolRunnerAaronUpdate/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2016.10.05-13.04.53:249][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Engine/EngineDebugMaterials/MAT_Green
+[2016.10.05-13.04.53:266][  0]LogLinker:Warning: Can't find file '/Engine/EngineDebugMaterials/MAT_Green'
+[2016.10.05-13.04.53:266][  0]LogLinker:Warning: Can't find file for asset '/Engine/EngineDebugMaterials/MAT_Green' while loading ../../../../../../Ivan/SchoolRunner-4.12-SchoolRunnerAaronUpdate/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2016.10.05-13.04.53:266][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Engine/EngineDebugMaterials/MAT_Green
+[2016.10.05-13.04.53:274][  0]LogLinker:Warning: Can't find file '/Engine/EngineDebugMaterials/MAT_Green'
+[2016.10.05-13.04.53:274][  0]LogLinker:Warning: Can't find file for asset '/Engine/EngineDebugMaterials/MAT_Green' while loading NULL.
+[2016.10.05-13.04.53:274][  0]LogLinker:Warning: Can't find file '/Engine/EngineDebugMaterials/MAT_Green'
+[2016.10.05-13.04.53:274][  0]LogLinker:Warning: Can't find file for asset '/Engine/EngineDebugMaterials/MAT_Green' while loading NULL.
+[2016.10.05-13.04.53:279][  0]LogBlueprint:Error: Compiler Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2016.10.05-13.04.53:280][  0]LogBlueprint:Warning: Compiler Warning [0004.06] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 0 Warning(s) [in 2 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.04.53:280][  0]LogBlueprint:Warning: Compiler Warning [0004.06] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.04.53:280][  0]LogBlueprint:Warning: Compiler Warning [0004.06] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.05-13.04.53:551][  0]LogLinker:Warning: Can't find file '/Engine/EngineDebugMaterials/MAT_Green'
+[2016.10.05-13.04.53:551][  0]LoadErrors: Info Failed to load /Engine/EngineDebugMaterials/MAT_Green.MAT_Green Referenced by StaticMeshComponent0
+[2016.10.05-13.04.53:551][  0]LogLinker:Warning: Can't find file for asset '/Engine/EngineDebugMaterials/MAT_Green' while loading NULL.
+[2016.10.05-13.04.53:551][  0]LoadErrors: Info Failed to load /Engine/EngineDebugMaterials/MAT_Green.MAT_Green Referenced by StaticMeshComponent0
+[2016.10.05-13.04.53:551][  0]LogLinker:Warning: Can't find file '/Engine/EngineDebugMaterials/MAT_Green'
+[2016.10.05-13.04.53:551][  0]LoadErrors: Info Failed to load /Engine/EngineDebugMaterials/MAT_Green.MAT_Green Referenced by StaticMeshComponent0
+[2016.10.05-13.04.53:551][  0]LogLinker:Warning: Can't find file for asset '/Engine/EngineDebugMaterials/MAT_Green' while loading NULL.
+[2016.10.05-13.04.53:551][  0]LoadErrors: Info Failed to load /Engine/EngineDebugMaterials/MAT_Green.MAT_Green Referenced by StaticMeshComponent0
+[2016.10.05-13.04.53:551][  0]LogLinker:Warning: Can't find file '/Engine/EngineDebugMaterials/MAT_Green'
+[2016.10.05-13.04.53:551][  0]LoadErrors: Info Failed to load /Engine/EngineDebugMaterials/MAT_Green.MAT_Green Referenced by StaticMeshComponent0
+[2016.10.05-13.04.53:551][  0]LogLinker:Warning: Can't find file for asset '/Engine/EngineDebugMaterials/MAT_Green' while loading NULL.
+[2016.10.05-13.04.53:551][  0]LoadErrors: Info Failed to load /Engine/EngineDebugMaterials/MAT_Green.MAT_Green Referenced by StaticMeshComponent0
+[2016.10.05-13.04.53:551][  0]LogLinker:Warning: Can't find file '/Engine/EngineDebugMaterials/MAT_Green'
+[2016.10.05-13.04.53:551][  0]LoadErrors: Info Failed to load /Engine/EngineDebugMaterials/MAT_Green.MAT_Green Referenced by StaticMeshComponent0
+[2016.10.05-13.04.53:551][  0]LogLinker:Warning: Can't find file for asset '/Engine/EngineDebugMaterials/MAT_Green' while loading NULL.
+[2016.10.05-13.04.53:551][  0]LoadErrors: Info Failed to load /Engine/EngineDebugMaterials/MAT_Green.MAT_Green Referenced by StaticMeshComponent0
+[2016.10.05-13.04.53:551][  0]LogLinker:Warning: Can't find file '/Engine/EngineDebugMaterials/MAT_Green'
+[2016.10.05-13.04.53:551][  0]LoadErrors: Info Failed to load /Engine/EngineDebugMaterials/MAT_Green.MAT_Green Referenced by StaticMeshComponent0
+[2016.10.05-13.04.53:551][  0]LogLinker:Warning: Can't find file for asset '/Engine/EngineDebugMaterials/MAT_Green' while loading NULL.
+[2016.10.05-13.04.53:552][  0]LoadErrors: Info Failed to load /Engine/EngineDebugMaterials/MAT_Green.MAT_Green Referenced by StaticMeshComponent0
+[2016.10.05-13.04.53:819][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.10.05-13.04.54:099][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.05-13.04.54:100][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.10.05-13.04.54:127][  0]MapC
