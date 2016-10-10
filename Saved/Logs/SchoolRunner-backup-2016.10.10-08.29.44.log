@@ -1,0 +1,783 @@
+﻿Log file open, 10/07/16 08:26:17
+LogInit:Display: Running engine without a game
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: Loading recent project file: ../../../../../../Ivan/SchoolRunner-4.12-SchoolRunnerAaronUpdate/SchoolRunner.uproject
+LogInit:Display: RandInit(1454924109) SRandInit(1454924110).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.061711
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.10.07-12.26.17:994][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.07-12.26.17:994][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.10.07-12.26.18:001][  0]LogInit: Computer: 2016-KISER-04
+[2016.10.07-12.26.18:002][  0]LogInit: User: iarodri17
+[2016.10.07-12.26.18:002][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.10.07-12.26.18:002][  0]LogInit: High frequency timer resolution =3.328339 MHz
+[2016.10.07-12.26.18:002][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.10.07-12.26.18:002][  0]LogMemory: Platform Memory Stats for Windows
+[2016.10.07-12.26.18:002][  0]LogMemory: Process Physical Memory: 191.64 MB used, 191.64 MB peak
+[2016.10.07-12.26.18:002][  0]LogMemory: Process Virtual Memory: 196.91 MB used, 196.91 MB peak
+[2016.10.07-12.26.18:002][  0]LogMemory: Physical Memory: 5253.01 MB used, 16304.60 MB total
+[2016.10.07-12.26.18:002][  0]LogMemory: Virtual Memory: 522.00 MB used, 8388608.00 MB total
+[2016.10.07-12.26.18:029][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.10.07-12.26.18:332][  0]LogD3D11RHI: D3D11 adapters:
+[2016.10.07-12.26.18:348][  0]LogD3D11RHI:    0. 'NVIDIA Quadro K2200 ' (Feature Level 11_0)
+[2016.10.07-12.26.18:348][  0]LogD3D11RHI:       4034/0/7896 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2016.10.07-12.26.18:348][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.10.07-12.26.18:351][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.10.07-12.26.18:351][  0]LogD3D11RHI:     GPU DeviceId: 0x13ba (for the marketing name, search the web for "GPU Device Id")
+[2016.10.07-12.26.18:351][  0]LogWindows: EnumDisplayDevices:
+[2016.10.07-12.26.18:351][  0]LogWindows:    0. 'NVIDIA Quadro K2200 ' (P:1 D:1)
+[2016.10.07-12.26.18:351][  0]LogWindows:    1. 'NVIDIA Quadro K2200 ' (P:0 D:1)
+[2016.10.07-12.26.18:351][  0]LogWindows:    2. 'NVIDIA Quadro K2200 ' (P:0 D:0)
+[2016.10.07-12.26.18:352][  0]LogWindows:    3. 'NVIDIA Quadro K2200 ' (P:0 D:0)
+[2016.10.07-12.26.18:352][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2016.10.07-12.26.18:352][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2016.10.07-12.26.18:352][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2016.10.07-12.26.18:352][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2016.10.07-12.26.18:352][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro K2200 
+[2016.10.07-12.26.18:352][  0]LogD3D11RHI:   Driver Version: 361.91 (internal:10.18.13.6191, unified:361.91)
+[2016.10.07-12.26.18:352][  0]LogD3D11RHI:      Driver Date: 2-8-2016
+[2016.10.07-12.26.18:352][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.10.07-12.26.18:358][  0]LogD3D11RHI: Async texture creation enabled
+[2016.10.07-12.26.18:371][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2016.10.07-12.26.18:371][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../../../Ivan/SchoolRunner-4.12-SchoolRunnerAaronUpdate/Intermediate/Shaders/WorkingDirectory/7848/).
+[2016.10.07-12.26.18:371][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/IARODR~1/AppData/Local/Temp/UnrealShaderWorkingDir/E5A948E144C91104F5514E8425813FB0/'.
+[2016.10.07-12.26.18:371][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.10.07-12.26.19:072][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.10.07-12.26.19:080][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.10.07-12.26.19:088][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.10.07-12.26.19:096][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.10.07-12.26.19:103][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.10.07-12.26.19:109][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.10.07-12.26.19:116][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.10.07-12.26.19:123][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.10.07-12.26.19:129][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.10.07-12.26.19:135][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.10.07-12.26.19:142][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.10.07-12.26.19:156][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.10.07-12.26.19:156][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.10.07-12.26.19:157][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.10.07-12.26.19:175][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.10.07-12.26.19:181][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.10.07-12.26.19:188][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.10.07-12.26.19:195][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.10.07-12.26.19:201][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.10.07-12.26.19:201][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.10.07-12.26.19:244][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.10.07-12.26.19:279][  0]LogDerivedDataCache: Loaded boot cache 0.04s 48MB C:/Users/iarodri17/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.10.07-12.26.19:280][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/iarodri17/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.10.07-12.26.19:280][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Ivan/SchoolRunner-4.12-SchoolRunnerAaronUpdate/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.10.07-12.26.19:280][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.10.07-12.26.19:280][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Ivan/SchoolRunner-4.12-SchoolRunnerAaronUpdate/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.10.07-12.26.19:280][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.10.07-12.26.19:293][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.10.07-12.26.19:304][  0]LogDerivedDataCache: Using Local data cache path C:/Users/iarodri17/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.10.07-12.26.19:426][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.07-12.26.19:427][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.10.07-12.26.19:541][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.10.07-12.26.19:541][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.10.07-12.26.19:541][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.10.07-12.26.19:724][  0]LogAssetRegistry: FAssetRegistry took 0.0203 seconds to start up
+[2016.10.07-12.26.19:739][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.013004 seconds
+[2016.10.07-12.26.19:743][  0]LogUObjectArray: 28741 objects as part of root set at end of initial load.
+[2016.10.07-12.26.19:743][  0]LogUObjectAllocator: 5855912 out of 0 bytes used by permanent object pool.
+[2016.10.07-12.26.19:743][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.10.07-12.26.19:747][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.10.07-12.26.19:868][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.10.07-12.26.19:868][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.10.07-12.26.20:310][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.10.07-12.26.20:485][  0]SourceControl: Info Source control is disabled
+[2016.10.07-12.26.20:486][  0]SourceControl: Info Source control is disabled
+[2016.10.07-12.26.20:490][  0]SourceControl: Info Source control is disabled
+[2016.10.07-12.26.20:493][  0]SourceControl: Info Source control is disabled
+[2016.10.07-12.26.20:608][  0]LogEngine: Initializing Engine...
+[2016.10.07-12.26.20:608][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.10.07-12.26.20:609][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.10.07-12.26.20:715][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.10.07-12.26.20:718][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.10.07-12.26.20:763][  0]LogInit: FAudioDevice initialized.
+[2016.10.07-12.26.20:783][  0]LogDerivedDataCache: Saved boot cache 0.02s 48MB C:/Users/iarodri17/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.10.07-12.26.20:786][  0]LogInit: Texture streaming: Enabled
+[2016.10.07-12.26.20:801][  0]LogInit: Transaction tracking system initialized
+[2016.10.07-12.26.20:815][  0]BlueprintLog: New page: Editor Load
+[2016.10.07-12.26.20:856][  0]LocalizationService: Info Localization service is disabled
+[2016.10.07-12.26.20:894][  0]LogConsoleResponse:Display: 
+[2016.10.07-12.26.20:968][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.10.07-12.26.20:968][  0]LogCook:Display: Mobile HDR setting 1
+[2016.10.07-12.26.21:022][  0]LogFileCache: Scanning file cache for directory 'C:/Ivan/SchoolRunner-4.12-SchoolRunnerAaronUpdate/Content/' took 0.02s
+[2016.10.07-12.26.21:022][  0]SourceControl: Info Source control is disabled
+[2016.10.07-12.26.21:022][  0]Cmd: MAP LOAD FILE="../../../../../../Ivan/SchoolRunner-4.12-SchoolRunnerAaronUpdate/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.10.07-12.26.21:022][  0]LightingResults: New page: Lighting Build
+[2016.10.07-12.26.21:024][  0]MapCheck: New page: Map Check
+[2016.10.07-12.26.21:024][  0]LightingResults: New page: Lighting Build
+[2016.10.07-12.26.21:048][  0]LogLinker:Warning: Asset '../../../../../../Ivan/SchoolRunner-4.12-SchoolRunnerAaronUpdate/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.10.07-12.26.21:049][  0]LogLinker:Warning: Asset '../../../../../../Ivan/SchoolRunner-4.12-SchoolRunnerAaronUpdate/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.10.07-12.26.21:049][  0]LogLinker:Warning: Asset '../../../../../../Ivan/SchoolRunner-4.12-SchoolRunnerAaronUpdate/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.10.07-12.26.21:050][  0]LogLinker:Warning: Asset '../../../../../../Ivan/SchoolRunner-4.12-SchoolRunnerAaronUpdate/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.10.07-12.26.21:050][  0]LogLinker:Warning: Asset '../../../../../../Ivan/SchoolRunner-4.12-SchoolRunnerAaronUpdate/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.10.07-12.26.21:051][  0]LogLinker:Warning: Asset '../../../../../../Ivan/SchoolRunner-4.12-SchoolRunnerAaronUpdate/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.10.07-12.26.21:051][  0]LogLinker:Warning: Asset '../../../../../../Ivan/SchoolRunner-4.12-SchoolRunnerAaronUpdate/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.10.07-12.26.21:325][  0]LogBlueprint:Error: Compiler Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2016.10.07-12.26.21:327][  0]LogBlueprint:Warning: Compiler Warning [0003.93] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 0 Warning(s) [in 2 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.07-12.26.21:327][  0]LogBlueprint:Warning: Compiler Warning [0003.93] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.07-12.26.21:327][  0]LogBlueprint:Warning: Compiler Warning [0003.93] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.07-12.26.21:973][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.10.07-12.26.22:263][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.07-12.26.22:264][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.10.07-12.26.22:293][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 29.368ms to complete.
+[2016.10.07-12.26.22:293][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.271
+[2016.10.07-12.26.23:042][  0]LogCollectionManager: Loaded 0 collections in 0.001141 seconds
+[2016.10.07-12.26.23:079][  0]LogFileCache: Scanning file cache for directory 'C:/Ivan/SchoolRunner-4.12-SchoolRunnerAaronUpdate/Saved/Collections/' took 0.01s
+[2016.10.07-12.26.23:079][  0]LogFileCache: Scanning file cache for directory 'C:/Ivan/SchoolRunner-4.12-SchoolRunnerAaronUpdate/Content/Developers/iarodri17/Collections/' took 0.01s
+[2016.10.07-12.26.23:079][  0]LogFileCache: Scanning file cache for directory 'C:/Ivan/SchoolRunner-4.12-SchoolRunnerAaronUpdate/Content/Collections/' took 0.01s
+[2016.10.07-12.26.23:079][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.10.07-12.26.23:085][  0]LogContentBrowser: Native class hierarchy populated in 0.0063 seconds. Added 2047 classes and 369 folders.
+[2016.10.07-12.26.23:089][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.10.07-12.26.23:089][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.10.07-12.26.23:089][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0003 seconds. Added 12 classes and 0 folders.
+[2016.10.07-12.26.23:092][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.10.07-12.26.23:115][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.10.07-12.26.23:117][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2016.10.07-12.26.23:129][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.10.07-12.26.23:144][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.10.07-12.26.23:167][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.10.07-12.26.23:167][  0]LogLoad: Full Startup: 5.77 seconds (BP compile: 0.09 seconds)
+[2016.10.07-12.26.23:167][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2016.10.07-12.26.23:511][  0]LogOcInput: OculusInput pre-init called
+[2016.10.07-12.26.23:555][  0]LogContentStreaming: Texture pool size now 700 MB
+[2016.10.07-12.26.23:714][  0]LogRenderer: Reallocating scene render targets to support 848x540 (Frame:2).
+[2016.10.07-12.26.23:840][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Ivan/SchoolRunner-4.12-SchoolRunnerAaronUpdate/Content/' took 0.31s
+[2016.10.07-12.26.24:511][  3]LogAssetRegistry: Asset discovery search completed in 4.8077 seconds
+[2016.10.07-12.26.24:511][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.10.07-12.26.24:512][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000044 seconds (updated 0 objects)
+[2016.10.07-12.49.03:559][ 20]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2016.10.07-12.49.40:621][560]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2016.10.07-12.49.41:954][677]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2016.10.07-12.49.42:752][746]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2016.10.07-12.49.43:132][776]LogEditorViewport: Clicking on Component (LMB): SpotLightComponent (LightComponent0)
+[2016.10.07-12.49.43:360][796]LogEditorViewport: Clicking on Component (LMB): SpotLightComponent (LightComponent0)
+[2016.10.07-12.49.44:649][909]LogEditorViewport: Clicking on Component (LMB): SpotLightComponent (LightComponent0)
+[2016.10.07-12.49.48:181][223]LogEditorViewport: Clicking on Component (LMB): SpotLightComponent (LightComponent0)
+[2016.10.07-12.49.58:290][101]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight2)
+[2016.10.07-12.50.08:374][986]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight2)
+[2016.10.07-12.50.09:059][ 40]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight2)
+[2016.10.07-12.50.14:589][502]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight2)
+[2016.10.07-12.50.16:461][665]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight2)
+[2016.10.07-12.50.16:835][694]LogEditorViewport: Clicking on Component (LMB): SpotLightComponent (LightComponent0)
+[2016.10.07-12.50.17:086][716]LogEditorViewport: Clicking on Component (LMB): SpotLightComponent (LightComponent0)
+[2016.10.07-12.50.19:134][875]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight3)
+[2016.10.07-12.50.31:974][938]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight4)
+[2016.10.07-12.50.40:964][739]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight5)
+[2016.10.07-12.50.58:509][436]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight6)
+[2016.10.07-12.51.09:886][604]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight7)
+[2016.10.07-12.51.22:341][930]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight8)
+[2016.10.07-12.51.32:311][ 39]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight9)
+[2016.10.07-12.51.46:207][596]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight10)
+[2016.10.07-12.52.01:442][405]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush383)
+[2016.10.07-12.52.03:387][635]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight11)
+[2016.10.07-12.52.20:838][499]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight13)
+[2016.10.07-13.10.00:546][982]LogEditorViewport: Clicking on Actor (LMB): Ceiling_C (Ceiling135)
+[2016.10.07-13.10.01:869][138]Cmd: DELETE
+[2016.10.07-13.10.01:869][138]Cmd: ACTOR DELETE
+[2016.10.07-13.10.01:876][138]LogEditorActor: Deleted Actor: Ceiling_C
+[2016.10.07-13.10.01:902][138]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2016.10.07-13.10.03:303][306]LogEditorViewport: Clicking on Actor (LMB): Ceiling_C (Ceiling136)
+[2016.10.07-13.10.04:270][420]Cmd: DELETE
+[2016.10.07-13.10.04:270][420]Cmd: ACTOR DELETE
+[2016.10.07-13.10.04:276][420]LogEditorActor: Deleted Actor: Ceiling_C
+[2016.10.07-13.10.04:284][420]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2016.10.07-13.10.07:468][717]LogEditorViewport: Clicking on Actor (LMB): Ceiling_C (Ceiling139)
+[2016.10.07-13.10.10:771][951]Cmd: DELETE
+[2016.10.07-13.10.10:771][951]Cmd: ACTOR DELETE
+[2016.10.07-13.10.10:777][951]LogEditorActor: Deleted Actor: Ceiling_C
+[2016.10.07-13.10.10:792][951]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2016.10.07-13.10.12:236][ 58]LogEditorViewport: Clicking on Actor (LMB): Ceiling_C (Ceiling134)
+[2016.10.07-13.10.12:529][ 75]Cmd: DELETE
+[2016.10.07-13.10.12:529][ 75]Cmd: ACTOR DELETE
+[2016.10.07-13.10.12:536][ 75]LogEditorActor: Deleted Actor: Ceiling_C
+[2016.10.07-13.10.12:550][ 75]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2016.10.07-13.10.13:774][168]LogEditorViewport: Clicking on Actor (LMB): Ceiling_C (Ceiling72)
+[2016.10.07-13.10.14:297][203]Cmd: DELETE
+[2016.10.07-13.10.14:297][203]Cmd: ACTOR DELETE
+[2016.10.07-13.10.14:303][203]LogEditorActor: Deleted Actor: Ceiling_C
+[2016.10.07-13.10.14:317][203]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2016.10.07-13.10.14:985][255]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight16)
+[2016.10.07-13.10.15:359][281]Cmd: DELETE
+[2016.10.07-13.10.15:359][281]Cmd: ACTOR DELETE
+[2016.10.07-13.10.15:365][281]LogEditorActor: Deleted Actor: PointLight
+[2016.10.07-13.10.15:381][281]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2016.10.07-13.10.17:095][407]LogEditorViewport: Clicking on Actor (LMB): Ceiling_C (Ceiling73)
+[2016.10.07-13.10.17:630][442]Cmd: DELETE
+[2016.10.07-13.10.17:630][442]Cmd: ACTOR DELETE
+[2016.10.07-13.10.17:636][442]LogEditorActor: Deleted Actor: Ceiling_C
+[2016.10.07-13.10.17:651][442]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2016.10.07-13.10.18:533][508]LogEditorViewport: Clicking on Actor (LMB): Ceiling_C (Ceiling71)
+[2016.10.07-13.10.18:994][538]Cmd: DELETE
+[2016.10.07-13.10.18:994][538]Cmd: ACTOR DELETE
+[2016.10.07-13.10.19:001][538]LogEditorActor: Deleted Actor: Ceiling_C
+[2016.10.07-13.10.19:015][538]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2016.10.07-13.10.20:051][618]LogEditorViewport: Clicking on Actor (LMB): Ceiling_C (Ceiling67)
+[2016.10.07-13.10.20:287][632]Cmd: DELETE
+[2016.10.07-13.10.20:287][632]Cmd: ACTOR DELETE
+[2016.10.07-13.10.20:293][632]LogEditorActor: Deleted Actor: Ceiling_C
+[2016.10.07-13.10.20:308][632]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2016.10.07-13.10.21:251][707]LogEditorViewport: Clicking on Actor (LMB): Ceiling_C (Ceiling70)
+[2016.10.07-13.10.21:453][719]Cmd: DELETE
+[2016.10.07-13.10.21:453][719]Cmd: ACTOR DELETE
+[2016.10.07-13.10.21:459][719]LogEditorActor: Deleted Actor: Ceiling_C
+[2016.10.07-13.10.21:473][719]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2016.10.07-13.10.22:879][833]LogEditorViewport: Clicking on Actor (LMB): Ceiling_C (Ceiling75)
+[2016.10.07-13.10.23:012][839]Cmd: DELETE
+[2016.10.07-13.10.23:012][839]Cmd: ACTOR DELETE
+[2016.10.07-13.10.23:018][839]LogEditorActor: Deleted Actor: Ceiling_C
+[2016.10.07-13.10.23:026][839]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2016.10.07-13.13.22:660][612]MapCheck: New page: Map Check
+[2016.10.07-13.13.22:692][612]Cmd: MAP REBUILD ALLVISIBLE
+[2016.10.07-13.13.22:693][612]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.10.07-13.13.28:701][612]LightingResults: New page: Lighting Build - Oct 7, 2016, 4:13:28 AM
+[2016.10.07-13.13.28:894][612]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2016.10.07-13.13.28:907][612]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2016.10.07-13.13.28:914][612]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2016.10.07-13.13.29:433][612]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2016.10.07-13.13.29:433][612]LogSwarmInterface: [TryOpenConnection] Local Process ID is 7848
+[2016.10.07-13.13.54:789][612]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.10.07-13.13.54:789][612]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.10.07-13.13.54:789][612]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.10.07-13.13.54:789][612]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.10.07-13.13.54:789][612]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.10.07-13.13.55:153][612]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2016.10.07-13.13.55:153][612]MapCheck: New page: ThirdPersonExampleMap - Oct 7, 2016, 4:13:55 AM
+[2016.10.07-13.13.55:196][612]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 43.005ms to complete.
+[2016.10.07-13.13.55:216][612]LogEditorBuildUtils: Build time 0:32
+[2016.10.07-13.13.55:238][612]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_1, compiling. 
+[2016.10.07-13.13.55:243][612]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_1, compiling. 
+[2016.10.07-13.13.55:248][612]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Frame, compiling. 
+[2016.10.07-13.13.55:252][612]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Frame, compiling. 
+[2016.10.07-13.13.55:278][613]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MAT_Green, compiling. 
+[2016.10.07-13.13.55:284][613]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MAT_Green, compiling. 
+[2016.10.07-13.13.55:642][614]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Brushed_Nickel, compiling. 
+[2016.10.07-13.13.55:649][614]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Brushed_Nickel, compiling. 
+[2016.10.07-13.13.55:686][615]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Chrome, compiling. 
+[2016.10.07-13.13.55:690][615]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Chrome, compiling. 
+[2016.10.07-13.13.55:752][616]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Brick_Clay_Beveled, compiling. 
+[2016.10.07-13.13.55:758][616]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Brick_Clay_Beveled, compiling. 
+[2016.10.07-13.13.55:771][617]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer _Light_Metal, compiling. 
+[2016.10.07-13.13.55:777][617]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer _Light_Metal, compiling. 
+[2016.10.07-13.14.11:856][288]LightingResults:Warning: Warning Door Object has overlapping UVs.
+[2016.10.07-13.14.11:856][288]LightingResults: Info Door Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2016.10.07-13.14.11:856][288]LightingResults:Warning: Warning Door Object has overlapping UVs.
+[2016.10.07-13.14.11:856][288]LightingResults: Info Door Lightmap UV are overlapping by 1.2%. Please adjust content - Enable Error Coloring to visualize.
+[2016.10.07-13.14.14:420][375]LightingResults:Warning: Warning <None> Object has overlapping UVs.
+[2016.10.07-13.14.14:420][375]LightingResults: Info <None> Lightmap UV are overlapping by 9.1%. Please adjust content - Enable Error Coloring to visualize.
+[2016.10.07-13.14.21:688][576]Job is a success!
+[2016.10.07-13.14.25:671][577]LightingResults:Error: Error SpotLight5 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.10.07-13.14.25:671][577]LightingResults:Error: Error SpotLight4 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.10.07-13.14.25:671][577]LightingResults:Error: Error SpotLight3 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.10.07-13.14.25:671][577]LightingResults:Error: Error SpotLight6 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.10.07-13.14.25:671][577]LightingResults:Error: Error SpotLight2 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.10.07-13.14.25:671][577]LightingResults:Error: Error SpotLight12 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.10.07-13.14.25:671][577]LightingResults:Error: Error PointLight9_8 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.10.07-13.14.25:671][577]LightingResults:Error: Error PointLight11_8 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.10.07-13.14.25:671][577]LightingResults:Error: Error PointLight_2 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.10.07-13.14.25:671][577]LightingResults:Error: Error PointLight5 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.10.07-13.14.25:671][577]LightingResults:Error: Error PointLight12 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.10.07-13.14.25:671][577]LightingResults:Error: Error PointLight7_2 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.10.07-13.14.25:671][577]LightingResults:Error: Error PointLight10_5 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.10.07-13.14.25:671][577]LightingResults:Error: Error SpotLight13 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.10.07-13.14.25:671][577]LightingResults:Error: Error PointLight19 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.10.07-13.14.25:671][577]LightingResults:Error: Error PointLight3 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.10.07-13.14.25:671][577]LightingResults:Error: Error PointLight18 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.10.07-13.14.25:671][577]LightingResults:Error: Error PointLight4 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.10.07-13.14.25:671][577]LightingResults:Error: Error PointLight6_2 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.10.07-13.14.25:672][577]LightingResults:Error: Error PointLight8_5 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2016.10.07-13.14.27:093][577]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2016.10.07-13.14.27:093][577]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2016.10.07-13.14.27:093][577]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2016.10.07-13.14.27:093][577]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT)
+[2016.10.07-13.14.27:093][577]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2016.10.07-13.14.27:093][577]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT)
+[2016.10.07-13.14.27:093][577]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2016.10.07-13.14.27:093][577]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2016.10.07-13.14.27:093][577]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2016.10.07-13.14.27:093][577]LogTexture:Display: Building textures: SkyOcclusion1_4 (AutoDXT)
+[2016.10.07-13.14.27:093][577]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2016.10.07-13.14.27:093][577]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2016.10.07-13.14.27:093][577]LogTexture:Display: Building textures: SkyOcclusion0_5 (AutoDXT)
+[2016.10.07-13.14.27:093][577]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2016.10.07-13.14.27:093][577]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2016.10.07-13.14.27:741][577]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2016.10.07-13.14.27:741][577]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2016.10.07-13.14.27:741][577]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2016.10.07-13.14.27:806][577]Lightmass on 2016-KISER-04: 29.9 sec total, 351 ms importing, 21 ms setup, 2.63 sec photons, 26.9 sec processing, 0 ms extra exporting [2696/2696 mappings]. Threads: 3:08 min total, 1:30 min processing.
+[2016.10.07-13.14.28:004][577]LogStaticLightingSystem: Illumination: 59.2 sec (1.40 sec encoding lightmaps, 658 ms encoding shadowmaps)
+[2016.10.07-13.14.28:004][577]LogStaticLightingSystem: Lightmap texture memory:  8.7 MB (0.7 MB streaming, 8.0 MB non-streaming), 10 textures
+[2016.10.07-13.14.28:004][577]LogStaticLightingSystem: Shadowmap texture memory: 13.5 MB (0.2 MB streaming, 13.3 MB non-streaming), 3 textures
+[2016.10.07-13.14.54:763][578]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.10.07-13.14.54:763][578]MapCheck: New page: ThirdPersonExampleMap - Oct 7, 2016, 4:14:54 AM
+[2016.10.07-13.14.54:873][578]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 109.83ms to complete.
+[2016.10.07-13.16.06:942][ 93]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight10)
+[2016.10.07-13.16.11:039][252]Cmd: DELETE
+[2016.10.07-13.16.11:039][252]Cmd: ACTOR DELETE
+[2016.10.07-13.16.11:045][252]LogEditorActor: Deleted Actor: PointLight
+[2016.10.07-13.16.11:071][252]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2016.10.07-13.16.47:411][612]LogEditorViewport: Clicking on Actor (LMB): CeilingWOLight_C (CeilingWOLight205)
+[2016.10.07-13.16.57:005][489]Cmd: EDIT COPY
+[2016.10.07-13.16.57:907][577]Cmd: DELETE
+[2016.10.07-13.16.57:907][577]Cmd: ACTOR DELETE
+[2016.10.07-13.16.57:913][577]LogEditorActor: Deleted Actor: CeilingWOLight_C
+[2016.10.07-13.16.57:921][577]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2016.10.07-13.17.08:229][469]Cmd: EDIT PASTE
+[2016.10.07-13.17.33:599][483]LogEditorViewport: Clicking on Actor (LMB): CeilingWOLight_C (CeilingWOLight205)
+[2016.10.07-13.18.19:221][215]Cmd: EDIT COPY
+[2016.10.07-13.18.20:013][282]Cmd: EDIT PASTE
+[2016.10.07-13.18.24:715][725]LogEditorViewport: Clicking on Actor (LMB): CeilingWOLight_C (CeilingWOLight15)
+[2016.10.07-13.18.27:843][ 21]LogEditorViewport: Clicking on Actor (LMB): CeilingWOLight_C (CeilingWOLight16)
+[2016.10.07-13.18.32:088][425]LogEditorViewport: Clicking on Actor (LMB): CeilingWOLight_C (CeilingWOLight15)
+[2016.10.07-13.18.33:621][570]LogEditorViewport: Clicking on Actor (LMB): CeilingWOLight_C (CeilingWOLight16)
+[2016.10.07-13.18.35:283][727]Cmd: EDIT COPY
+[2016.10.07-13.18.35:748][771]Cmd: EDIT PASTE
+[2016.10.07-13.18.52:592][315]Cmd: DELETE
+[2016.10.07-13.18.52:592][315]Cmd: ACTOR DELETE
+[2016.10.07-13.18.52:597][315]LogEditorActor: Deleted Actor: CeilingWOLight_C
+[2016.10.07-13.18.52:627][315]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2016.10.07-13.18.53:628][414]LogEditorViewport: Clicking on Actor (LMB): CeilingWOLight_C (CeilingWOLight15)
+[2016.10.07-13.18.54:676][513]Cmd: DELETE
+[2016.10.07-13.18.54:676][513]Cmd: ACTOR DELETE
+[2016.10.07-13.18.54:682][513]LogEditorActor: Deleted Actor: CeilingWOLight_C
+[2016.10.07-13.18.54:690][513]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2016.10.07-13.18.55:721][619]LogEditorViewport: Clicking on Actor (LMB): CeilingWOLight_C (CeilingWOLight16)
+[2016.10.07-13.18.56:400][685]Cmd: DELETE
+[2016.10.07-13.18.56:400][685]Cmd: ACTOR DELETE
+[2016.10.07-13.18.56:406][685]LogEditorActor: Deleted Actor: CeilingWOLight_C
+[2016.10.07-13.18.56:415][685]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2016.10.07-13.19.07:921][784]LogEditorViewport: Clicking on Actor (LMB): CeilingWOLight_C (CeilingWOLight205)
+[2016.10.07-13.22.45:865][578]Cmd: TRANSACTION UNDO
+[2016.10.07-13.22.45:865][578]LogEditorTransaction: Undo Move Actors
+[2016.10.07-13.23.11:380][642]Cmd: TRANSACTION UNDO
+[2016.10.07-13.23.11:380][642]LogEditorTransaction: Undo Move Actors
+[2016.10.07-13.23.12:361][688]Cmd: TRANSACTION UNDO
+[2016.10.07-13.23.12:361][688]LogEditorTransaction: Undo Rotate Actors
+[2016.10.07-13.25.48:625][782]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.07-13.25.48:625][782]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.10.07-13.25.48:625][782]LogPlayLevel: [PlayLevel] Compiling ThirdPersonExampleMap before play...
+[2016.10.07-13.25.48:630][782]LogBlueprint:Error: Compiler Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2016.10.07-13.25.48:711][782]LogBlueprint:Warning: Compiler Warning [3571.32] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 0 Warning(s) [in 83 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.07-13.25.48:711][782]LogBlueprint:Warning: Compiler Warning [3571.32] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.07-13.25.48:711][782]LogBlueprint:Warning: Compiler Warning [3571.32] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.07-13.25.48:711][782]LogBlueprint:Warning: Compiler Warning [3571.32] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.07-13.25.48:711][782]LogBlueprint:Warning: Compiler Warning [3571.32] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.07-13.25.48:711][782]LogBlueprint:Warning: Compiler Warning [3571.32] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.07-13.25.48:711][782]LogPlayLevel: PlayLevel: Blueprint regeneration took 85 ms (1 blueprints)
+[2016.10.07-13.25.48:725][782]BlueprintLog: Info Blueprint ThirdPersonExampleMap failed to compile
+[2016.10.07-13.25.49:923][782]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 7, 2016, 4:25:49 AM)
+[2016.10.07-13.25.49:923][782]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.10.07-13.25.50:141][782]LogPlayLevel: PIE: StaticDuplicateObject took: (0.217972s)
+[2016.10.07-13.25.50:142][782]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.10.07-13.25.50:142][782]LogPlayLevel: PIE: World Init took: (0.000817s)
+[2016.10.07-13.25.50:143][782]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.219498s)
+[2016.10.07-13.25.50:154][782]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.10.07-13.25.50:161][782]LogInit: FAudioDevice initialized.
+[2016.10.07-13.25.50:225][782]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.10.07-13.25.50:294][782]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.10.07-09.25.50
+[2016.10.07-13.25.50:311][782]LogWorld: Bringing up level for play took: 0.083816
+[2016.10.07-13.25.50:313][782]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
+[2016.10.07-13.25.50:315][782]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.488
+[2016.10.07-13.25.50:316][782]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.07-13.26.04:576][ 51]LogBlueprintUserMessages: [BP_Pickup_Child_Hex2] Destination Reached
+[2016.10.07-13.26.08:760][434]LogBlueprintUserMessages: [BP_Pickup_Child_Hex_155] Destination Reached
+[2016.10.07-13.27.45:614][218]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.07-13.27.45:660][218]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.07-13.27.57:352][229]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2016.10.07-13.28.01:178][438]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2016.10.07-13.28.01:308][443]LogEditorViewport: Clicking on Component (LMB): CameraComponent (FollowCamera)
+[2016.10.07-13.28.02:340][502]LogEditorViewport: Clicking on Component (LMB): CameraComponent (FollowCamera)
+[2016.10.07-13.28.02:453][506]LogEditorViewport: Clicking on Actor (double click): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2016.10.07-13.28.03:277][552]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2016.10.07-13.28.03:388][556]LogEditorViewport: Clicking on Component (LMB): CameraComponent (FollowCamera)
+[2016.10.07-13.28.09:194][875]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.07-13.28.09:194][875]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.10.07-13.28.09:194][875]LogPlayLevel: [PlayLevel] Compiling ThirdPersonExampleMap before play...
+[2016.10.07-13.28.09:199][875]LogBlueprint:Error: Compiler Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2016.10.07-13.28.09:275][875]LogBlueprint:Warning: Compiler Warning [3711.88] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 0 Warning(s) [in 78 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.07-13.28.09:275][875]LogBlueprint:Warning: Compiler Warning [3711.88] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.07-13.28.09:275][875]LogBlueprint:Warning: Compiler Warning [3711.88] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.07-13.28.09:275][875]LogBlueprint:Warning: Compiler Warning [3711.88] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.07-13.28.09:275][875]LogBlueprint:Warning: Compiler Warning [3711.88] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.07-13.28.09:275][875]LogBlueprint:Warning: Compiler Warning [3711.88] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.07-13.28.09:275][875]LogPlayLevel: PlayLevel: Blueprint regeneration took 80 ms (1 blueprints)
+[2016.10.07-13.28.09:284][875]BlueprintLog: Info Blueprint ThirdPersonExampleMap failed to compile
+[2016.10.07-13.28.10:730][875]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 7, 2016, 4:28:10 AM)
+[2016.10.07-13.28.10:730][875]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.10.07-13.28.10:941][875]LogPlayLevel: PIE: StaticDuplicateObject took: (0.211498s)
+[2016.10.07-13.28.10:942][875]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.10.07-13.28.10:942][875]LogPlayLevel: PIE: World Init took: (0.000897s)
+[2016.10.07-13.28.10:943][875]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.213230s)
+[2016.10.07-13.28.10:983][875]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.10.07-13.28.10:990][875]LogInit: FAudioDevice initialized.
+[2016.10.07-13.28.11:038][875]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.10.07-13.28.11:108][875]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.10.07-09.28.11
+[2016.10.07-13.28.11:125][875]LogWorld: Bringing up level for play took: 0.086178
+[2016.10.07-13.28.11:127][875]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 2.291
+[2016.10.07-13.28.11:128][875]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.07-13.28.50:311][292]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.07-13.28.50:480][292]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.10.07-13.29.13:455][ 77]LogEditorViewport: Clicking on Actor (LMB): CeilingWOLight_C (CeilingWOLight205)
+[2016.10.07-13.29.16:369][323]LogEnum:Warning: Enum name collision: 'EIntTypes::NewEnumerator4' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/EIntTypes.EIntTypes' and '/Engine/ArtTools/RenderToTexture/Enums/EIntTypes.EIntTypes'
+[2016.10.07-13.29.16:369][323]LogEnum:Warning: Enum name collision: 'EIntTypes::NewEnumerator5' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/EIntTypes.EIntTypes' and '/Engine/ArtTools/RenderToTexture/Enums/EIntTypes.EIntTypes'
+[2016.10.07-13.29.16:369][323]LogEnum:Warning: Enum name collision: 'EIntTypes::NewEnumerator6' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/EIntTypes.EIntTypes' and '/Engine/ArtTools/RenderToTexture/Enums/EIntTypes.EIntTypes'
+[2016.10.07-13.29.16:369][323]LogEnum:Warning: Enum name collision: 'EIntTypes::NewEnumerator7' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/EIntTypes.EIntTypes' and '/Engine/ArtTools/RenderToTexture/Enums/EIntTypes.EIntTypes'
+[2016.10.07-13.29.16:369][323]LogEnum:Warning: Enum name collision: 'EIntTypes::EIntTypes_MAX' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/EIntTypes.EIntTypes' and '/Engine/ArtTools/RenderToTexture/Enums/EIntTypes.EIntTypes'
+[2016.10.07-13.29.16:433][323]LogEnum:Warning: Enum name collision: 'EIntTypes::NewEnumerator4' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/EIntTypes.EIntTypes' and '/Engine/ArtTools/RenderToTexture/Enums/EIntTypes.EIntTypes'
+[2016.10.07-13.29.16:433][323]LogEnum:Warning: Enum name collision: 'EIntTypes::NewEnumerator5' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/EIntTypes.EIntTypes' and '/Engine/ArtTools/RenderToTexture/Enums/EIntTypes.EIntTypes'
+[2016.10.07-13.29.16:433][323]LogEnum:Warning: Enum name collision: 'EIntTypes::NewEnumerator6' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/EIntTypes.EIntTypes' and '/Engine/ArtTools/RenderToTexture/Enums/EIntTypes.EIntTypes'
+[2016.10.07-13.29.16:433][323]LogEnum:Warning: Enum name collision: 'EIntTypes::NewEnumerator7' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/EIntTypes.EIntTypes' and '/Engine/ArtTools/RenderToTexture/Enums/EIntTypes.EIntTypes'
+[2016.10.07-13.29.16:511][323]LogEnum:Warning: Enum name collision: 'EFloatTypes::NewEnumerator0' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/EFloatTypes.EFloatTypes' and '/Engine/ArtTools/RenderToTexture/Enums/EFloatTypes.EFloatTypes'
+[2016.10.07-13.29.16:511][323]LogEnum:Warning: Enum name collision: 'EFloatTypes::NewEnumerator1' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/EFloatTypes.EFloatTypes' and '/Engine/ArtTools/RenderToTexture/Enums/EFloatTypes.EFloatTypes'
+[2016.10.07-13.29.16:511][323]LogEnum:Warning: Enum name collision: 'EFloatTypes::NewEnumerator2' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/EFloatTypes.EFloatTypes' and '/Engine/ArtTools/RenderToTexture/Enums/EFloatTypes.EFloatTypes'
+[2016.10.07-13.29.16:511][323]LogEnum:Warning: Enum name collision: 'EFloatTypes::NewEnumerator3' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/EFloatTypes.EFloatTypes' and '/Engine/ArtTools/RenderToTexture/Enums/EFloatTypes.EFloatTypes'
+[2016.10.07-13.29.16:511][323]LogEnum:Warning: Enum name collision: 'EFloatTypes::EFloatTypes_MAX' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/EFloatTypes.EFloatTypes' and '/Engine/ArtTools/RenderToTexture/Enums/EFloatTypes.EFloatTypes'
+[2016.10.07-13.29.16:565][323]LogEnum:Warning: Enum name collision: 'EFloatTypes::NewEnumerator0' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/EFloatTypes.EFloatTypes' and '/Engine/ArtTools/RenderToTexture/Enums/EFloatTypes.EFloatTypes'
+[2016.10.07-13.29.16:565][323]LogEnum:Warning: Enum name collision: 'EFloatTypes::NewEnumerator1' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/EFloatTypes.EFloatTypes' and '/Engine/ArtTools/RenderToTexture/Enums/EFloatTypes.EFloatTypes'
+[2016.10.07-13.29.16:565][323]LogEnum:Warning: Enum name collision: 'EFloatTypes::NewEnumerator2' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/EFloatTypes.EFloatTypes' and '/Engine/ArtTools/RenderToTexture/Enums/EFloatTypes.EFloatTypes'
+[2016.10.07-13.29.16:565][323]LogEnum:Warning: Enum name collision: 'EFloatTypes::NewEnumerator3' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/EFloatTypes.EFloatTypes' and '/Engine/ArtTools/RenderToTexture/Enums/EFloatTypes.EFloatTypes'
+[2016.10.07-13.29.16:579][323]LogEnum:Warning: Enum name collision: 'RenderToTexture_Enum::NewEnumerator10' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum'
+[2016.10.07-13.29.16:579][323]LogEnum:Warning: Enum name collision: 'RenderToTexture_Enum::NewEnumerator0' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum'
+[2016.10.07-13.29.16:579][323]LogEnum:Warning: Enum name collision: 'RenderToTexture_Enum::NewEnumerator5' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum'
+[2016.10.07-13.29.16:579][323]LogEnum:Warning: Enum name collision: 'RenderToTexture_Enum::NewEnumerator2' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum'
+[2016.10.07-13.29.16:579][323]LogEnum:Warning: Enum name collision: 'RenderToTexture_Enum::NewEnumerator3' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum'
+[2016.10.07-13.29.16:579][323]LogEnum:Warning: Enum name collision: 'RenderToTexture_Enum::NewEnumerator4' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum'
+[2016.10.07-13.29.16:579][323]LogEnum:Warning: Enum name collision: 'RenderToTexture_Enum::NewEnumerator6' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum'
+[2016.10.07-13.29.16:579][323]LogEnum:Warning: Enum name collision: 'RenderToTexture_Enum::NewEnumerator8' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum'
+[2016.10.07-13.29.16:579][323]LogEnum:Warning: Enum name collision: 'RenderToTexture_Enum::NewEnumerator9' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum'
+[2016.10.07-13.29.16:579][323]LogEnum:Warning: Enum name collision: 'RenderToTexture_Enum::RenderToTexture_MAX' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum'
+[2016.10.07-13.29.16:579][323]LogEnum:Warning: Enum name collision: 'RenderToTexture_Enum::NewEnumerator10' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum'
+[2016.10.07-13.29.16:579][323]LogEnum:Warning: Enum name collision: 'RenderToTexture_Enum::NewEnumerator0' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum'
+[2016.10.07-13.29.16:579][323]LogEnum:Warning: Enum name collision: 'RenderToTexture_Enum::NewEnumerator5' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum'
+[2016.10.07-13.29.16:579][323]LogEnum:Warning: Enum name collision: 'RenderToTexture_Enum::NewEnumerator2' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum'
+[2016.10.07-13.29.16:579][323]LogEnum:Warning: Enum name collision: 'RenderToTexture_Enum::NewEnumerator3' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum'
+[2016.10.07-13.29.16:579][323]LogEnum:Warning: Enum name collision: 'RenderToTexture_Enum::NewEnumerator4' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum'
+[2016.10.07-13.29.16:579][323]LogEnum:Warning: Enum name collision: 'RenderToTexture_Enum::NewEnumerator6' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum'
+[2016.10.07-13.29.16:579][323]LogEnum:Warning: Enum name collision: 'RenderToTexture_Enum::NewEnumerator8' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum'
+[2016.10.07-13.29.16:579][323]LogEnum:Warning: Enum name collision: 'RenderToTexture_Enum::NewEnumerator9' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.RenderToTexture_Enum'
+[2016.10.07-13.29.16:580][323]LogEnum:Warning: Enum name collision: 'RenderToTexture_Flipbook_Enum::NewEnumerator0' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Flipbook_Enum.RenderToTexture_Flipbook_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Flipbook_Enum.RenderToTexture_Flipbook_Enum'
+[2016.10.07-13.29.16:580][323]LogEnum:Warning: Enum name collision: 'RenderToTexture_Flipbook_Enum::NewEnumerator1' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Flipbook_Enum.RenderToTexture_Flipbook_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Flipbook_Enum.RenderToTexture_Flipbook_Enum'
+[2016.10.07-13.29.16:580][323]LogEnum:Warning: Enum name collision: 'RenderToTexture_Flipbook_Enum::NewEnumerator2' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Flipbook_Enum.RenderToTexture_Flipbook_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Flipbook_Enum.RenderToTexture_Flipbook_Enum'
+[2016.10.07-13.29.16:580][323]LogEnum:Warning: Enum name collision: 'RenderToTexture_Flipbook_Enum::RenderToTexture_Flipbook_MAX' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Flipbook_Enum.RenderToTexture_Flipbook_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Flipbook_Enum.RenderToTexture_Flipbook_Enum'
+[2016.10.07-13.29.16:580][323]LogEnum:Warning: Enum name collision: 'RenderToTexture_Flipbook_Enum::NewEnumerator0' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Flipbook_Enum.RenderToTexture_Flipbook_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Flipbook_Enum.RenderToTexture_Flipbook_Enum'
+[2016.10.07-13.29.16:580][323]LogEnum:Warning: Enum name collision: 'RenderToTexture_Flipbook_Enum::NewEnumerator1' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Flipbook_Enum.RenderToTexture_Flipbook_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Flipbook_Enum.RenderToTexture_Flipbook_Enum'
+[2016.10.07-13.29.16:580][323]LogEnum:Warning: Enum name collision: 'RenderToTexture_Flipbook_Enum::NewEnumerator2' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Flipbook_Enum.RenderToTexture_Flipbook_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Flipbook_Enum.RenderToTexture_Flipbook_Enum'
+[2016.10.07-13.29.16:581][323]LogEnum:Warning: Enum name collision: 'RenderToTexture_Imposter_Enum::NewEnumerator0' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Imposter_Enum.RenderToTexture_Imposter_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Imposter_Enum.RenderToTexture_Imposter_Enum'
+[2016.10.07-13.29.16:581][323]LogEnum:Warning: Enum name collision: 'RenderToTexture_Imposter_Enum::NewEnumerator1' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Imposter_Enum.RenderToTexture_Imposter_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Imposter_Enum.RenderToTexture_Imposter_Enum'
+[2016.10.07-13.29.16:581][323]LogEnum:Warning: Enum name collision: 'RenderToTexture_Imposter_Enum::RenderToTexture_Imposter_MAX' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Imposter_Enum.RenderToTexture_Imposter_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Imposter_Enum.RenderToTexture_Imposter_Enum'
+[2016.10.07-13.29.16:582][323]LogEnum:Warning: Enum name collision: 'RenderToTexture_Imposter_Enum::NewEnumerator0' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Imposter_Enum.RenderToTexture_Imposter_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Imposter_Enum.RenderToTexture_Imposter_Enum'
+[2016.10.07-13.29.16:582][323]LogEnum:Warning: Enum name collision: 'RenderToTexture_Imposter_Enum::NewEnumerator1' is in both '/Game/OtherUnrealStuff/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Imposter_Enum.RenderToTexture_Imposter_Enum' and '/Engine/ArtTools/RenderToTexture/Enums/RenderToTexture_Imposter_Enum.RenderToTexture_Imposter_Enum'
+[2016.10.07-13.29.16:583][323]LogEnum:Warning: Enum name collision: 'AnimsForHands::NewEnumerator0' is in both '/Game/OtherUnrealStuff/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands' and '/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands'
+[2016.10.07-13.29.16:583][323]LogEnum:Warning: Enum name collision: 'AnimsForHands::NewEnumerator1' is in both '/Game/OtherUnrealStuff/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands' and '/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands'
+[2016.10.07-13.29.16:583][323]LogEnum:Warning: Enum name collision: 'AnimsForHands::NewEnumerator2' is in both '/Game/OtherUnrealStuff/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands' and '/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands'
+[2016.10.07-13.29.16:583][323]LogEnum:Warning: Enum name collision: 'AnimsForHands::NewEnumerator3' is in both '/Game/OtherUnrealStuff/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands' and '/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands'
+[2016.10.07-13.29.16:583][323]LogEnum:Warning: Enum name collision: 'AnimsForHands::NewEnumerator4' is in both '/Game/OtherUnrealStuff/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands' and '/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands'
+[2016.10.07-13.29.16:583][323]LogEnum:Warning: Enum name collision: 'AnimsForHands::NewEnumerator5' is in both '/Game/OtherUnrealStuff/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands' and '/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands'
+[2016.10.07-13.29.16:583][323]LogEnum:Warning: Enum name collision: 'AnimsForHands::NewEnumerator6' is in both '/Game/OtherUnrealStuff/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands' and '/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands'
+[2016.10.07-13.29.16:583][323]LogEnum:Warning: Enum name collision: 'AnimsForHands::NewEnumerator8' is in both '/Game/OtherUnrealStuff/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands' and '/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands'
+[2016.10.07-13.29.16:583][323]LogEnum:Warning: Enum name collision: 'AnimsForHands::NewEnumerator7' is in both '/Game/OtherUnrealStuff/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands' and '/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands'
+[2016.10.07-13.29.16:583][323]LogEnum:Warning: Enum name collision: 'AnimsForHands::AnimsForHands_MAX' is in both '/Game/OtherUnrealStuff/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands' and '/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands'
+[2016.10.07-13.29.16:583][323]LogEnum:Warning: Enum name collision: 'AnimsForHands::NewEnumerator0' is in both '/Game/OtherUnrealStuff/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands' and '/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands'
+[2016.10.07-13.29.16:583][323]LogEnum:Warning: Enum name collision: 'AnimsForHands::NewEnumerator1' is in both '/Game/OtherUnrealStuff/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands' and '/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands'
+[2016.10.07-13.29.16:583][323]LogEnum:Warning: Enum name collision: 'AnimsForHands::NewEnumerator2' is in both '/Game/OtherUnrealStuff/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands' and '/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands'
+[2016.10.07-13.29.16:583][323]LogEnum:Warning: Enum name collision: 'AnimsForHands::NewEnumerator3' is in both '/Game/OtherUnrealStuff/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands' and '/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands'
+[2016.10.07-13.29.16:583][323]LogEnum:Warning: Enum name collision: 'AnimsForHands::NewEnumerator4' is in both '/Game/OtherUnrealStuff/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands' and '/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands'
+[2016.10.07-13.29.16:583][323]LogEnum:Warning: Enum name collision: 'AnimsForHands::NewEnumerator5' is in both '/Game/OtherUnrealStuff/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands' and '/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands'
+[2016.10.07-13.29.16:583][323]LogEnum:Warning: Enum name collision: 'AnimsForHands::NewEnumerator6' is in both '/Game/OtherUnrealStuff/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands' and '/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands'
+[2016.10.07-13.29.16:583][323]LogEnum:Warning: Enum name collision: 'AnimsForHands::NewEnumerator8' is in both '/Game/OtherUnrealStuff/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands' and '/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands'
+[2016.10.07-13.29.16:583][323]LogEnum:Warning: Enum name collision: 'AnimsForHands::NewEnumerator7' is in both '/Game/OtherUnrealStuff/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands' and '/Engine/VREditor/Tutorial/UMG/Specialized/AnimsForHands.AnimsForHands'
+[2016.10.07-13.29.16:589][323]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 111 classes and 0 folders.
+[2016.10.07-13.29.19:566][533]LogRenderer: Reallocating scene render targets to support 848x844 (Frame:129718).
+[2016.10.07-13.29.26:131][ 34]LogEditorViewport: Clicking Background
+[2016.10.07-13.29.27:438][167]LogEditorViewport: Clicking on Actor (LMB): CeilingWOLight_C (CeilingWOLight205)
+[2016.10.07-13.31.41:248][607]LogEditorViewport: Clicking on Actor (LMB): CeilingWOLight_C (CeilingWOLight205)
+[2016.10.07-13.31.43:054][737]Cmd: DELETE
+[2016.10.07-13.31.43:054][737]Cmd: ACTOR DELETE
+[2016.10.07-13.31.43:060][737]LogEditorActor: Deleted Actor: CeilingWOLight_C
+[2016.10.07-13.31.43:092][737]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2016.10.07-13.31.43:984][804]LogEditorViewport: Clicking on Actor (LMB): CeilingWOLight_C (CeilingWOLight15)
+[2016.10.07-13.31.52:495][420]Cmd: DELETE
+[2016.10.07-13.31.52:495][420]Cmd: ACTOR DELETE
+[2016.10.07-13.31.52:501][420]LogEditorActor: Deleted Actor: CeilingWOLight_C
+[2016.10.07-13.31.52:518][420]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2016.10.07-13.31.53:621][506]Cmd: TRANSACTION UNDO
+[2016.10.07-13.31.53:621][506]LogEditorTransaction: Undo Delete Actors
+[2016.10.07-13.31.53:972][525]Cmd: TRANSACTION UNDO
+[2016.10.07-13.31.53:972][525]LogEditorTransaction: Undo Move Actors
+[2016.10.07-13.31.54:553][565]Cmd: TRANSACTION UNDO
+[2016.10.07-13.31.54:553][565]LogEditorTransaction: Undo Clicking on Actors
+[2016.10.07-13.31.55:367][625]Cmd: TRANSACTION UNDO
+[2016.10.07-13.31.55:367][625]LogEditorTransaction: Undo Delete Actors
+[2016.10.07-13.31.56:589][708]LogEditorViewport: Clicking on Actor (LMB): CeilingWOLight_C (CeilingWOLight15)
+[2016.10.07-13.31.57:320][758]Cmd: DELETE
+[2016.10.07-13.31.57:320][758]Cmd: ACTOR DELETE
+[2016.10.07-13.31.57:326][758]LogEditorActor: Deleted Actor: CeilingWOLight_C
+[2016.10.07-13.31.57:342][758]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2016.10.07-13.32.07:530][651]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (AtmosphericFog)
+[2016.10.07-13.32.29:248][763]Cmd: DELETE
+[2016.10.07-13.32.29:248][763]Cmd: ACTOR DELETE
+[2016.10.07-13.32.29:254][763]LogEditorActor: Deleted Actor: AtmosphericFog
+[2016.10.07-13.32.29:273][763]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2016.10.07-13.32.35:287][394]Cmd: TRANSACTION UNDO
+[2016.10.07-13.32.35:287][394]LogEditorTransaction: Undo Delete Actors
+[2016.10.07-13.32.40:823][733]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush535)
+[2016.10.07-13.32.44:381][937]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush535)
+[2016.10.07-13.32.49:505][214]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2016.10.07-13.32.51:939][354]Cmd: DELETE
+[2016.10.07-13.32.51:939][354]Cmd: ACTOR DELETE
+[2016.10.07-13.32.51:945][354]LogEditorActor: Deleted Actor: SkyLight
+[2016.10.07-13.32.51:959][354]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2016.10.07-13.32.59:927][871]Cmd: TRANSACTION UNDO
+[2016.10.07-13.32.59:927][871]LogEditorTransaction: Undo Delete Actors
+[2016.10.07-13.35.29:631][  3]LogBlueprint:Error: Compiler Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2016.10.07-13.35.29:744][  3]LogBlueprint:Warning: Compiler Warning [4152.32] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 0 Warning(s) [in 115 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.07-13.35.29:744][  3]LogBlueprint:Warning: Compiler Warning [4152.32] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.07-13.35.29:744][  3]LogBlueprint:Warning: Compiler Warning [4152.32] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.07-13.35.29:744][  3]LogBlueprint:Warning: Compiler Warning [4152.32] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.07-13.35.29:745][  3]LogBlueprint:Warning: Compiler Warning [4152.32] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.07-13.35.29:745][  3]LogBlueprint:Warning: Compiler Warning [4152.32] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2016.10.07-13.35.31:194][  3]LogSavePackage: Save=1567.52ms
+[2016.10.07-13.35.31:195][  3]LogSavePackage: Moving '../../../../../../Ivan/SchoolRunner-4.12-SchoolRunnerAaronUpdate/Saved/ThirdPersonExampleMapACDB358344B0163CFA87F98F08E92323.tmp' to '../../../../../../Ivan/SchoolRunner-4.12-SchoolRunnerAaronUpdate/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2016.10.07-13.35.31:199][  3]LogSavePackage:Display: Finished SavePackage ../../../../../../Ivan/SchoolRunner-4.12-SchoolRunnerAaronUpdate/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2016.10.07-13.37.44:458][ 72]Cmd: QUIT_EDITOR
+[2016.10.07-13.37.44:562][ 72]LogExit: Preparing to exit.
+[2016.10.07-13.37.45:525][ 72]LogExit: Editor shut down
+[2016.10.07-13.37.45:525][ 72]LogExit: Transaction tracking system shut down
+[2016.10.07-13.37.45:645][ 72]LogObj: Freed 0b from 0 cluster array pools.
+[2016.10.07-13.37.45:645][ 72]LogExit: Object subsystem successfully closed.
+[2016.10.07-13.37.45:664][ 72]LogD3D11RHI: Shutdown
+[2016.10.07-13.37.45:664][ 72]LogD3D11RHI: CleanupD3DDevice
+[2016.10.07-13.37.45:770][ 72]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.10.07-13.37.45:778][ 72]LogModuleManager: Shutting down and abandoning module BlueprintGraph (216)
+[2016.10.07-13.37.45:778][ 72]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (215)
+[2016.10.07-13.37.45:778][ 72]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (214)
+[2016.10.07-13.37.45:778][ 72]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (213)
+[2016.10.07-13.37.45:778][ 72]LogModuleManager: Shutting down and abandoning module CrashTracker (212)
+[2016.10.07-13.37.45:778][ 72]LogModuleManager: Shutting down and abandoning module SceneOutliner (211)
+[2016.10.07-13.37.45:778][ 72]LogModuleManager: Shutting down and abandoning module WidgetCarousel (210)
+[2016.10.07-13.37.45:778][ 72]LogModuleManager: Shutting down and abandoning module AddContentDialog (209)
+[2016.10.07-13.37.45:779][ 72]LogModuleManager: Shutting down and abandoning module GameplayTags (208)
+[2016.10.07-13.37.45:779][ 72]LogModuleManager: Shutting down and abandoning module EditorWidgets (207)
+[2016.10.07-13.37.45:779][ 72]LogModuleManager: Shutting down and abandoning module CollectionManager (206)
+[2016.10.07-13.37.45:779][ 72]LogModuleManager: Shutting down and abandoning module StatsViewer (205)
+[2016.10.07-13.37.45:779][ 72]LogModuleManager: Shutting down and abandoning module FoliageEdit (204)
+[2016.10.07-13.37.45:779][ 72]LogModuleManager: Shutting down and abandoning module LandscapeEditor (203)
+[2016.10.07-13.37.45:779][ 72]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (202)
+[2016.10.07-13.37.45:779][ 72]LogModuleManager: Shutting down and abandoning module ActorPickerMode (201)
+[2016.10.07-13.37.45:779][ 72]LogModuleManager: Shutting down and abandoning module GeometryMode (200)
+[2016.10.07-13.37.45:779][ 72]LogModuleManager: Shutting down and abandoning module TextureAlignMode (199)
+[2016.10.07-13.37.45:779][ 72]LogModuleManager: Shutting down and abandoning module BspMode (198)
+[2016.10.07-13.37.45:779][ 72]LogModuleManager: Shutting down and abandoning module HardwareSurvey (197)
+[2016.10.07-13.37.45:779][ 72]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (196)
+[2016.10.07-13.37.45:779][ 72]LogModuleManager: Shutting down and abandoning module SequenceRecorder (195)
+[2016.10.07-13.37.45:779][ 72]LogModuleManager: Shutting down and abandoning module AutomationWorker (194)
+[2016.10.07-13.37.45:779][ 72]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (193)
+[2016.10.07-13.37.45:779][ 72]LogModuleManager: Shutting down and abandoning module PlacementMode (192)
+[2016.10.07-13.37.45:779][ 72]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (191)
+[2016.10.07-13.37.45:780][ 72]LogModuleManager: Shutting down and abandoning module CharacterAI (190)
+[2016.10.07-13.37.45:780][ 72]LogModuleManager: Shutting down and abandoning module SmartSnapping (189)
+[2016.10.07-13.37.45:780][ 72]LogModuleManager: Shutting down and abandoning module SessionServices (188)
+[2016.10.07-13.37.45:780][ 72]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
+[2016.10.07-13.37.45:780][ 72]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
+[2016.10.07-13.37.45:780][ 72]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
+[2016.10.07-13.37.45:780][ 72]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
+[2016.10.07-13.37.45:780][ 72]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
+[2016.10.07-13.37.45:780][ 72]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
+[2016.10.07-13.37.45:780][ 72]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
+[2016.10.07-13.37.45:780][ 72]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
+[2016.10.07-13.37.46:639][ 72]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
+[2016.10.07-13.37.46:640][ 72]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
+[2016.10.07-13.37.46:640][ 72]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
+[2016.10.07-13.37.46:640][ 72]LogModuleManager: Shutting down and abandoning module MergeActors (176)
+[2016.10.07-13.37.46:640][ 72]LogModuleManager: Shutting down and abandoning module SizeMap (175)
+[2016.10.07-13.37.46:640][ 72]LogModuleManager: Shutting down and abandoning module TreeMap (174)
+[2016.10.07-13.37.46:640][ 72]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
+[2016.10.07-13.37.46:640][ 72]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
+[2016.10.07-13.37.46:640][ 72]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
+[2016.10.07-13.37.46:640][ 72]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
+[2016.10.07-13.37.46:640][ 72]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
+[2016.10.07-13.37.46:640][ 72]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
+[2016.10.07-13.37.46:640][ 72]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
+[2016.10.07-13.37.46:640][ 72]LogModuleManager: Shutting down and abandoning module XmlParser (166)
+[2016.10.07-13.37.46:640][ 72]LogModuleManager: Shutting down and abandoning module Blutility (165)
+[2016.10.07-13.37.46:640][ 72]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
+[2016.10.07-13.37.46:640][ 72]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
+[2016.10.07-13.37.46:640][ 72]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
+[2016.10.07-13.37.46:641][ 72]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
+[2016.10.07-13.37.46:641][ 72]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
+[2016.10.07-13.37.46:641][ 72]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
+[2016.10.07-13.37.46:641][ 72]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
+[2016.10.07-13.37.46:641][ 72]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
+[2016.10.07-13.37.46:641][ 72]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
+[2016.10.07-13.37.46:641][ 72]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
+[2016.10.07-13.37.46:691][ 72]LogModuleManager: Shutting down and abandoning module AutomationController (154)
+[2016.10.07-13.37.46:691][ 72]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
+[2016.10.07-13.37.46:691][ 72]LogModuleManager: Shutting down and abandoning module Layers (152)
+[2016.10.07-13.37.46:691][ 72]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
+[2016.10.07-13.37.46:691][ 72]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
+[2016.10.07-13.37.46:691][ 72]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
+[2016.10.07-13.37.46:691][ 72]LogModuleManager: Shutting down and abandoning module Persona (148)
+[2016.10.07-13.37.46:691][ 72]LogModuleManager: Shutting down and abandoning module Kismet (147)
+[2016.10.07-13.37.46:691][ 72]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
+[2016.10.07-13.37.46:692][ 72]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
+[2016.10.07-13.37.46:692][ 72]LogModuleManager: Shutting down and abandoning module Toolbox (144)
+[2016.10.07-13.37.46:692][ 72]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
+[2016.10.07-13.37.46:692][ 72]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
+[2016.10.07-13.37.46:692][ 72]LogModuleManager: Shutting down and abandoning module OutputLog (141)
+[2016.10.07-13.37.46:692][ 72]LogModuleManager: Shutting down and abandoning module GammaUI (140)
+[2016.10.07-13.37.46:692][ 72]LogModuleManager: Shutting down and abandoning module Documentation (139)
+[2016.10.07-13.37.46:692][ 72]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
+[2016.10.07-13.37.46:692][ 72]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
+[2016.10.07-13.37.46:692][ 72]LogModuleManager: Shutting down and abandoning module Analytics (136)
+[2016.10.07-13.37.46:692][ 72]LogModuleManager: Shutting down and abandoning module PortalServices (135)
+[2016.10.07-13.37.46:692][ 72]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
+[2016.10.07-13.37.46:692][ 72]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
+[2016.10.07-13.37.46:692][ 72]LogModuleManager: Shutting down and abandoning module GameplayDebugger (132)
+[2016.10.07-13.37.46:692][ 72]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
+[2016.10.07-13.37.46:692][ 72]LogModuleManager: Shutting down and abandoning module AIModule (130)
+[2016.10.07-13.37.46:692][ 72]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
+[2016.10.07-13.37.46:859][ 72]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
+[2016.10.07-13.37.46:859][ 72]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
+[2016.10.07-13.37.46:859][ 72]LogModuleManager: Shutting down and abandoning module SteamVRController (126)
+[2016.10.07-13.37.46:859][ 72]LogModuleManager: Shutting down and abandoning module SteamVR (125)
+[2016.10.07-13.37.46:859][ 72]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (124)
+[2016.10.07-13.37.46:859][ 72]LogModuleManager: Shutting down and abandoning module OculusLibrary (123)
+[2016.10.07-13.37.46:859][ 72]LogModuleManager: Shutting down and abandoning module OculusInput (122)
+[2016.10.07-13.37.46:859][ 72]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (121)
+[2016.10.07-13.37.46:859][ 72]LogModuleManager: Shutting down and abandoning module CableComponent (120)
+[2016.10.07-13.37.46:859][ 72]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (119)
+[2016.10.07-13.37.46:859][ 72]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (118)
+[2016.10.07-13.37.46:859][ 72]LogModuleManager: Shutting down and abandoning module HTML5Networking (117)
+[2016.10.07-13.37.46:859][ 72]LogModuleManager: Shutting down and abandoning module SuperSearch (116)
+[2016.10.07-13.37.46:859][ 72]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (115)
+[2016.10.07-13.37.46:859][ 72]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
+[2016.10.07-13.37.46:859][ 72]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
+[2016.10.07-13.37.46:859][ 72]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
+[2016.10.07-13.37.46:860][ 72]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
+[2016.10.07-13.37.46:860][ 72]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
+[2016.10.07-13.37.46:860][ 72]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
+[2016.10.07-13.37.46:860][ 72]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
+[2016.10.07-13.37.46:860][ 72]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
+[2016.10.07-13.37.46:860][ 72]LogModuleManager: Shutting down and abandoning module SourceControl (106)
+[2016.10.07-13.37.46:860][ 72]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
+[2016.10.07-13.37.46:860][ 72]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
+[2016.10.07-13.37.46:860][ 72]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
+[2016.10.07-13.37.46:860][ 72]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
+[2016.10.07-13.37.46:860][ 72]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
+[2016.10.07-13.37.46:860][ 72]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (100)
+[2016.10.07-13.37.46:860][ 72]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.10.07-13.37.46:861][ 72]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.10.07-13.37.46:861][ 72]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.10.07-13.37.46:863][ 72]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
+[2016.10.07-13.37.46:865][ 72]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
+[2016.10.07-13.37.46:865][ 72]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
+[2016.10.07-13.37.46:965][ 72]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2016.10.07-13.37.46:965][ 72]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2016.10.07-13.37.46:965][ 72]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2016.10.07-13.37.46:965][ 72]LogModuleManager: Shutting down and abandoning module Media (90)
+[2016.10.07-13.37.46:965][ 72]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2016.10.07-13.37.46:966][ 72]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2016.10.07-13.37.46:966][ 72]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2016.10.07-13.37.46:966][ 72]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2016.10.07-13.37.46:966][ 72]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2016.10.07-13.37.46:966][ 72]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2016.10.07-13.37.46:966][ 72]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2016.10.07-13.37.46:966][ 72]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2016.10.07-13.37.46:966][ 72]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2016.10.07-13.37.46:967][ 72]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2016.10.07-13.37.46:967][ 72]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2016.10.07-13.37.46:967][ 72]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2016.10.07-13.37.46:967][ 72]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.10.07-13.37.46:967][ 72]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.10.07-13.37.46:967][ 72]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2016.10.07-13.37.46:967][ 72]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2016.10.07-13.37.46:967][ 72]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2016.10.07-13.37.46:967][ 72]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2016.10.07-13.37.46:967][ 72]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2016.10.07-13.37.46:967][ 72]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2016.10.07-13.37.46:974][ 72]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2016.10.07-13.37.46:974][ 72]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2016.10.07-13.37.46:974][ 72]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2016.10.07-13.37.46:974][ 72]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2016.10.07-13.37.46:974][ 72]LogModuleManager: Shutting down and abandoning module Core (64)
+[2016.10.07-13.37.46:974][ 72]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2016.10.07-13.37.46:975][ 72]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2016.10.07-13.37.47:156][ 72]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.10.07-13.37.47:156][ 72]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.10.07-13.37.47:156][ 72]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.10.07-13.37.47:156][ 72]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2016.10.07-13.37.47:167][ 72]LogDerivedDataCache: Shutdown
+[2016.10.07-13.37.47:167][ 72]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2016.10.07-13.37.47:167][ 72]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.10.07-13.37.47:167][ 72]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.10.07-13.37.47:167][ 72]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.10.07-13.37.47:167][ 72]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.10.07-13.37.47:167][ 72]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.10.07-13.37.47:167][ 72]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.10.07-13.37.47:167][ 72]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.10.07-13.37.47:167][ 72]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.10.07-13.37.47:167][ 72]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.10.07-13.37.47:167][ 72]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.10.07-13.37.47:167][ 72]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.10.07-13.37.47:168][ 72]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.10.07-13.37.47:168][ 72]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.10.07-13.37.47:168][ 72]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.10.07-13.37.47:168][ 72]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.10.07-13.37.47:168][ 72]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.10.07-13.37.47:168][ 72]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.10.07-13.37.47:168][ 72]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.10.07-13.37.47:168][ 72]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.10.07-13.37.47:168][ 72]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.10.07-13.37.47:168][ 72]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.10.07-13.37.47:168][ 72]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.10.07-13.37.47:168][ 72]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.10.07-13.37.47:168][ 72]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.10.07-13.37.47:168][ 72]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.10.07-13.37.47:168][ 72]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.10.07-13.37.47:168][ 72]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.10.07-13.37.47:168][ 72]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.10.07-13.37.47:168][ 72]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.10.07-13.37.47:168][ 72
